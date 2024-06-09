@@ -1,9 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import AddUser from './components/AddUser';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <div></div>
+    <div className='App'>
+      <AddUser/>
+      <NavBar/>
+      </div>
+    
   );
 }
 
