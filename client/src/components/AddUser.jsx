@@ -1,6 +1,10 @@
 import { FormControl } from "@mui/base";
 import { FormGroup, InputLabel, Input, Typography } from "@mui/material";
 
+const Container = styled(FormGroup)`
+width = 50%;
+`
+
 const AddUser = () => {
     return(
         <FormGroup>
