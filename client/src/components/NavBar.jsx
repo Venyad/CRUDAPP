@@ -12,7 +12,7 @@ const Tabs = styled('p')`
 
 const NavBar = () => {
     return (
-        <Header>
+        <Header position = "static">
             <AppBar>
                 <Toolbar>
                     <Tabs>Code for Interview</Tabs>
