@@ -1,13 +1,14 @@
 import { FormControl } from "@mui/base";
-import { FormGroup, InputLabel, Input, Typography } from "@mui/material";
+import { FormGroup, InputLabel, Input, Typography, styled } from "@mui/material";
 
 const Container = styled(FormGroup)`
 width = 50%;
+margin = 5% auto 0 auto;
 `
 
 const AddUser = () => {
     return(
-        <FormGroup>
+        <Container>
             <Typography variant="h4">Add user</Typography>
             <FormControl>
                 <InputLabel>Name</InputLabel>
@@ -29,9 +30,7 @@ const AddUser = () => {
                 <InputLabel>Name</InputLabel>
                 <Input/>
             </FormControl>
-            
-
-        </FormGroup>
+        </Container>
     )
 }
 
