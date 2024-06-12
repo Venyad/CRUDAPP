@@ -1,6 +1,8 @@
-import { AppBar, styled } from '@mui/material'
+import { AppBar } from '@mui/material'
 import { Toolbar } from '@mui/material';
 import { NavLink } from 'react-router-dom'
+import styled from "styled-components";
+
 
 const Header = styled(AppBar)`
     background: #111111
